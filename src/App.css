@@ -1,0 +1,85 @@
+:root {
+  margin: 0 auto;
+  width: max-content;
+}
+
+div {
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 20px;
+  align-items: center;
+}
+
+.seven-segment-display {
+  position: relative;
+  width: 100px;
+  height: 200px;
+}
+
+.segment {
+  position: absolute;
+  background-color: red;
+  opacity: 0.2;
+  border-radius: 50px;
+}
+
+.segment.on {
+  opacity: 1;
+}
+
+.segment.a {
+  top: 5px;
+  left: 15px;
+  width: 70px;
+  height: 20px;
+}
+
+.segment.b {
+  top: 20px;
+  right: 0;
+  width: 20px;
+  height: 75px;
+}
+
+.segment.c {
+  bottom: 20px;
+  right: 0;
+  width: 20px;
+  height: 75px;
+}
+
+.segment.d {
+  bottom: 5px;
+  left: 15px;
+  width: 70px;
+  height: 20px;
+}
+
+.segment.e {
+  bottom: 20px;
+  left: 0;
+  width: 20px;
+  height: 75px;
+}
+
+.segment.f {
+  top: 20px;
+  left: 0;
+  width: 20px;
+  height: 75px;
+}
+
+.segment.g {
+  top: 90px;
+  left: 15px;
+  width: 70px;
+  height: 20px;
+}
+
+p {
+  margin: 150px;
+}
